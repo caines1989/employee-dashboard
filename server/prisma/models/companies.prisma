@@ -1,0 +1,12 @@
+model Company {
+  id  String @id @default(cuid())
+  companyName String
+  telephone Int
+  email String
+  website String
+  companyType String
+  notes String
+  hot Boolean? @default(false)
+  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now())
+}
