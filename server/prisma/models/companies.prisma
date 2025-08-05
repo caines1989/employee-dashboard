@@ -1,7 +1,7 @@
 model Company {
   id  String @id @default(cuid())
   companyName String
-  telephone Int
+  telephone String
   email String
   website String
   companyType String
