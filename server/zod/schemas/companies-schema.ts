@@ -8,6 +8,7 @@ export const companySchema = z.object({
   website: z.string().url(),
   companyType: z.string(),
   notes: z.string(),
+  live: z.boolean().optional(),
   hot: z.boolean().optional(),
   createdAt: z.date(),
   updatedAt: z.date(),
