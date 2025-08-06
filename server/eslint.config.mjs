@@ -13,6 +13,14 @@ export default antfu(
     ignores: ['**/migrations/*'],
   },
   {
+    env: {
+      node: true,
+      commonjs: true,
+      browser: true,
+      es6: true,
+    },
+  },
+  {
     rules: {
       'no-console': ['warn'],
       'antfu/no-top-level-await': ['off'],

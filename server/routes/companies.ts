@@ -3,7 +3,7 @@ import { prisma } from '../lib/prisma';
 
 const companyRoutes = new Hono();
 
-companyRoutes.get('/', async (c) => {
+companyRoutes.get('/', async c => {
   try {
     const companies = await prisma.company.findMany();
     return c.json(companies);
