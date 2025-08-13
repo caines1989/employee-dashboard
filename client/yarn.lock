@@ -1235,7 +1235,7 @@ acorn@^8.12.0:
 
 add@^2.0.6:
   version "2.0.6"
-  resolved "https://registry.npmjs.org/add/-/add-2.0.6.tgz"
+  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
   integrity sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q==
 
 agent-base@^7.0.2:
@@ -3239,10 +3239,10 @@ setprototypeof@1.2.0:
   resolved "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
-shadcn@^2.1.6:
-  version "2.6.1"
-  resolved "https://registry.npmjs.org/shadcn/-/shadcn-2.6.1.tgz"
-  integrity sha512-ryLZPgt0QaROv1wIN8yJNx3lZEGoq6WJyWaY+5pBWxVeT/DhM2rJmR+SeKsoUOYRWBKLhzO25jwv8d/4eXmYsg==
+shadcn@^2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/shadcn/-/shadcn-2.10.0.tgz#e8235ec8bc8f13812f23a39b72ba0130e264e7d9"
+  integrity sha512-/zxjmHGbaYVFtI6bUridFVV7VFStIv3vU/w1h7xenhz7KRzc9pqHsyFvcExZprG7dlA5kW9knRgv8+Cl/H7w9w==
   dependencies:
     "@antfu/ni" "^23.2.0"
     "@babel/core" "^7.22.1"
